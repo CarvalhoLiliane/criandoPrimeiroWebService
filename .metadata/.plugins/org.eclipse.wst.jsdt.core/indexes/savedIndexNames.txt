@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+G:\projetos\criandoWebService\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1650449417.index
+3769195692.index
+180697481.index
+4119057879.index
+3837716914.index
+3914111409.index
+2555610229.index

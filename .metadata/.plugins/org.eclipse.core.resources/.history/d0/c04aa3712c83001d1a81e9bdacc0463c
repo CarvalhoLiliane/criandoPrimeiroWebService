@@ -1,0 +1,20 @@
+package calculadora;
+
+import java.net.URL;
+
+import javax.xml.namespace.QName;
+
+
+
+public class CalculadoraCliente {
+
+	public static void main(String[] args) throws Exception {
+		URL url = 
+			new URL("http://localhost:8080/Calculadora/services/CalculadoraExemploPort?wsdl");
+		QName qnameCalc = new QName("http://calculadora/", "CalculadoraExemploService");
+		
+		
+
+	}
+
+}

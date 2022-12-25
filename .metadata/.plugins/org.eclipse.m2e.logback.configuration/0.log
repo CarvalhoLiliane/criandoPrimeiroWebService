@@ -1,0 +1,22 @@
+2022-12-22 12:53:38,318 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-22 13:08:43,790 [main] INFO  org.eclipse.jetty.server.Server - jetty-10.0.11; built: 2022-06-21T21:12:44.640Z; git: d988aa016e0bb2de6fba84c1659049c72eae3e32; jvm 17.0.4.1+1
+2022-12-22 13:08:43,808 [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2022-12-22 13:08:43,833 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3aba5249{/wse,null,AVAILABLE}
+2022-12-22 13:08:43,851 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6e5bc104{HTTP/1.1, (http/1.1)}{0.0.0.0:50443}
+2022-12-22 13:08:43,855 [main] INFO  org.eclipse.jetty.server.Server - Started Server@3ace0b92{STARTING}[10.0.11,sto=0] @939523ms
+2022-12-22 23:01:20,138 [Framework stop - Equinox Container: 9117f15b-2f07-4274-af89-41d4b5db5fc9] INFO  org.eclipse.jetty.server.Server - Stopped Server@3ace0b92{STOPPING}[10.0.11,sto=0]
+2022-12-22 23:01:20,148 [Framework stop - Equinox Container: 9117f15b-2f07-4274-af89-41d4b5db5fc9] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6e5bc104{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2022-12-22 23:01:20,211 [Framework stop - Equinox Container: 9117f15b-2f07-4274-af89-41d4b5db5fc9] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3aba5249{/wse,null,STOPPED}
+2022-12-23 21:37:30,764 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-12-23 22:44:27,492 [Worker-67: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-core/3.4.4/cxf-core-3.4.4-sources.jar
+2022-12-23 22:44:27,563 [Worker-68: Label Job] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-core/3.4.4/cxf-core-3.4.4-sources.jar
+2022-12-23 22:44:28,155 [Worker-67: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-core/3.4.4/cxf-core-3.4.4-sources.jar
+2022-12-23 22:44:28,366 [Worker-68: Label Job] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-core/3.4.4/cxf-core-3.4.4-sources.jar
+2022-12-23 22:45:41,151 [main] INFO  org.eclipse.jetty.server.Server - jetty-10.0.11; built: 2022-06-21T21:12:44.640Z; git: d988aa016e0bb2de6fba84c1659049c72eae3e32; jvm 17.0.4.1+1
+2022-12-23 22:45:41,169 [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2022-12-23 22:45:41,196 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6d66f22c{/wse,null,AVAILABLE}
+2022-12-23 22:45:41,214 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@55c2e1e1{HTTP/1.1, (http/1.1)}{0.0.0.0:51407}
+2022-12-23 22:45:41,217 [main] INFO  org.eclipse.jetty.server.Server - Started Server@124cb263{STARTING}[10.0.11,sto=0] @4132825ms
+2022-12-23 23:18:04,542 [Framework stop - Equinox Container: d05fef3a-2427-46a4-a688-ef09466f0608] INFO  org.eclipse.jetty.server.Server - Stopped Server@124cb263{STOPPING}[10.0.11,sto=0]
+2022-12-23 23:18:04,544 [Framework stop - Equinox Container: d05fef3a-2427-46a4-a688-ef09466f0608] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@55c2e1e1{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2022-12-23 23:18:04,579 [Framework stop - Equinox Container: d05fef3a-2427-46a4-a688-ef09466f0608] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6d66f22c{/wse,null,STOPPED}

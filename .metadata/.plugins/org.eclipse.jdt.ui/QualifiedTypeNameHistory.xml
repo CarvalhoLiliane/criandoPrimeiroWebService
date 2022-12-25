@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="testews.exemplo.Exemplo1"/>
+    <fullyQualifiedTypeName name="testews.exemplo.Saudacao"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+    <fullyQualifiedTypeName name="javax.xml.ws.Service"/>
+    <fullyQualifiedTypeName name="calculadora.CalculadoraExemploService"/>
+    <fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+    <fullyQualifiedTypeName name="calculadora.CalculadoraExemploPortImpl"/>
+</qualifiedTypeNameHistroy>

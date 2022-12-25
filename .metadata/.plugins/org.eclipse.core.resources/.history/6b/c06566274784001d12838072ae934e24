@@ -1,0 +1,31 @@
+package calculadora.teste;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
+import calculadora.CalculadoraExemplo;
+
+public class CalculadoraTest {
+
+	public static void main(String[] args) throws MalformedURLException  {
+		URL url = new URL("http://localhost:8080/Calculadora/services/CalculadoraExemploPort?wsdl");
+		
+		QName qNameCalc = new QName("http://calculadora/", "CalculadoraExemploService");
+		
+		Service ws = Service.create(url, qNameCalc);
+		
+		CalculadoraExemplo calc = ws.getPort(CalculadoraExemplo.class);
+		
+//		System.out.println("Soma (5 + 1): " + calc.getCalculadoraExemplo().soma(5.0, 1.0));
+//		System.out.println("Multiplica (10 x 3): " + calc.getCalculadoraExemplo().multiplica(10.0, 3.0));
+//		System.out.println("Subtrai (100 x 30): " + calc.getCalculadoraExemplo().subtrai(100.0, 30.0));
+//		System.out.println("Divide (50 x 2): " + calc.getCalculadoraExemplo().divide(50.0, 2.0));
+		
+		System.out.println(calc.subtrai(10.0, 2.0));
+
+	}
+
+}
